@@ -1,5 +1,7 @@
 # OnChange
 
+[![Gem Version](https://badge.fury.io/rb/on_change.svg)](http://badge.fury.io/rb/on_change)
+
 Subscribe to attribute changes events for your active record
 
 ## Installation
