@@ -62,13 +62,6 @@ describe OnChange do
     b.num_reads = 1
   end
 
-  it "should invoke on 2 callbacks for num_reads" do
-    b = Book.new
-    expect(b).to receive(:res1).with("num_reads", nil, 1)
-    expect(b).to receive(:res2).with("num_reads", nil, 1)
-    b.num_reads = 1
-  end
-
   it "should not invoke callbacks for user" do
     u = User.new
     expect(u).to receive(:hello_user).with("first_name", nil, "john")
