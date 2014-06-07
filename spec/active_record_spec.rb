@@ -1,7 +1,6 @@
 require 'active_record'
 require 'rails'
 load 'lib/on_change.rb'
-require 'pry'
 ActiveRecord::Base.establish_connection(
     adapter: 'sqlite3',
     encoding: 'utf8',
